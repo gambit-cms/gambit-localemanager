@@ -17,7 +17,10 @@
     "require": {
         "php": ">=5.5",
         "ext-intl": "*",
+        "zendframework/zend-eventmanager": "~2.5",
+        "zendframework/zend-http": "~2.5"
         "zendframework/zend-mvc": "~2.5",
-        "zendframework/zend-servicemanager": "~2.5"
+        "zendframework/zend-servicemanager": "~2.5",
+        "zendframework/zend-view": "~2.5"
     }
 }
