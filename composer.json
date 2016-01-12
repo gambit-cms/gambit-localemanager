@@ -1,0 +1,23 @@
+{
+    "name": "gambit-cms/gambit-localemanager",
+    "description": " ",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "gambit",
+        "cms",
+        "zf2",
+        "locale"
+    ],
+    "homepage": "https://github.com/gambit-cms/gambit-localemanager",
+    "autoload": {
+        "psr-4": {
+            "Gambit\\LocaleManager\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "ext-intl": "*",
+        "zendframework/zend-mvc": "~2.5",
+        "zendframework/zend-servicemanager": "~2.5"
+    }
+}
